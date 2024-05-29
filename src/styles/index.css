@@ -1,0 +1,88 @@
+@import './reset.css';
+
+/* 600 */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 700 */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts//OpenSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+/* 600 */
+
+/* 400 */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 700 */
+@font-face {
+  font-family: 'Raleway';
+  src: url('./fonts/Raleway-Bold.woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* font */
+  --primary-font-Poppins: 'Open Sans';
+  --secondary-font-Raleway: 'Raleway';
+
+  /* color */
+
+  --primary-font-color-303030: #303030;
+  --secondary-font-color-555555: #555555;
+  --white-color-FFFFFF: #ffffff;
+  --grey-color-F7F7F7: #f7f7f7;
+  --secondary-grey-9DA4BD: #9da4bd;
+  --black-color-000000: #000000;
+  --border-color-FF6C00: #ff6c00;
+
+  /* transition params */
+  --my-transition-duration: 250ms;
+  --my-transition-timing-function: ease-in-out;
+  --my-transition-delay: 250ms;
+  --my-transition-duration-500: 500ms;
+  --my-cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: var(--primary-font-color-303030);
+  font-weight: 600;
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 0 31px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 1599px;
+    margin: 0 auto;
+    padding: 0 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    margin: 0 auto;
+    padding: 0 215px;
+  }
+}
