@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/BarberShop/static/css/main.7acaea2f.css",
-    "main.js": "/BarberShop/static/js/main.07d3183d.js",
+    "main.css": "/BarberShop/static/css/main.8df9ba2c.css",
+    "main.js": "/BarberShop/static/js/main.96cb95b3.js",
+    "static/media/border_2x.png": "/BarberShop/static/media/border_2x.1b7c3052d1efeca2944c.png",
+    "static/media/border_1x.png": "/BarberShop/static/media/border_1x.c09b64d5cbe5b7a2f04a.png",
+    "static/media/border_servise_2x.png": "/BarberShop/static/media/border_servise_2x.1b36fc42d32f28c4e0a8.png",
+    "static/media/border_servise_1x.png": "/BarberShop/static/media/border_servise_1x.eeda454e36aabb682e29.png",
+    "static/media/Raleway-Bold.woff": "/BarberShop/static/media/Raleway-Bold.b331147c04d741480954.woff",
+    "static/media/OpenSans-Bold.woff": "/BarberShop/static/media/OpenSans-Bold.fa869de7dcd1fc13d9ed.woff",
+    "static/media/OpenSans-SemiBold.woff": "/BarberShop/static/media/OpenSans-SemiBold.c7a3ffd87605fb2f5cab.woff",
+    "static/media/OpenSans-Regular.woff": "/BarberShop/static/media/OpenSans-Regular.229564cad5daae8ae40b.woff",
+    "static/media/Logo.svg": "/BarberShop/static/media/Logo.26c8e0a5061f2c44e9bdf478245b6193.svg",
     "index.html": "/BarberShop/index.html",
-    "main.7acaea2f.css.map": "/BarberShop/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/BarberShop/static/js/main.07d3183d.js.map"
+    "static/media/menu_24px.svg": "/BarberShop/static/media/menu_24px.77fd4acc4f6590f6cfd4fc5428980089.svg",
+    "main.8df9ba2c.css.map": "/BarberShop/static/css/main.8df9ba2c.css.map",
+    "main.96cb95b3.js.map": "/BarberShop/static/js/main.96cb95b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.8df9ba2c.css",
+    "static/js/main.96cb95b3.js"
   ]
 }
