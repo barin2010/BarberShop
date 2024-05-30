@@ -1,0 +1,36 @@
+.latinWrapper {
+  padding: 84px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.latinText {
+  font-size: 11px;
+  margin-bottom: 71px;
+  text-align: left;
+  padding-left: 20px;
+  position: relative;
+  margin-right: auto;
+  margin-left: 80px;
+}
+
+.latinText::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateX(-115%);
+  width: 60px;
+  height: 1px;
+  background-color: var(--primary-font-color-303030);
+}
+.latinList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+.latinImg {
+  width: 418px;
+}

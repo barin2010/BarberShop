@@ -51,12 +51,13 @@
   --secondary-grey-9DA4BD: #9da4bd;
   --black-color-000000: #000000;
   --border-color-FF6C00: #ff6c00;
+  --background-color-191C26: #191c26;
 
   /* transition params */
   --my-transition-duration: 250ms;
   --my-transition-timing-function: ease-in-out;
   --my-transition-delay: 250ms;
-  --my-transition-duration-500: 500ms;
+  --my-transition-duration-500: 250ms;
   --my-cubic-bezier: cubic-bezier(0.4, 0, 0.2, 1);
 }
 

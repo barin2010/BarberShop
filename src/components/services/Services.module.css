@@ -6,6 +6,7 @@
     url('../../images/mobile/Bg.png');
   background-repeat: no-repeat;
   width: 480px;
+  margin: 0 auto;
 }
 
 .servicesWrapper {
@@ -28,7 +29,6 @@
   top: 45%;
   left: 0;
   transform: translateX(-80px);
-
   width: 60px;
   height: 1px;
   background-color: var(--secondary-grey-9DA4BD);
@@ -52,6 +52,7 @@
 }
 .servicesItem {
   display: flex;
+  gap: 4px;
   align-items: center;
   justify-content: space-between;
 }
@@ -61,6 +62,15 @@
   line-height: 143%;
   letter-spacing: 0.02em;
   color: var(--secondary-grey-9DA4BD);
+}
+.itemTextSpan {
+  display: inline-block;
+  margin-top: auto;
+  margin-bottom: 5px;
+  flex-grow: 1;
+  height: 1px;
+  background-color: var(--secondary-grey-9DA4BD);
+  opacity: 12%;
 }
 
 .itamTextTwo {
@@ -84,4 +94,7 @@
 .servicesBtn:hover,
 .servicesBtn:focus {
   background-color: var(--border-color-FF6C00);
+  transition-duration: var(--my-transition-duration);
+  transition-timing-function: var(--my-transition-timing-function);
+  transition-delay: var(--my-transition-delay);
 }

@@ -58,4 +58,7 @@
 .aboutBtn:focus {
   color: var(--white-color-FFFFFF);
   background-color: var(--border-color-FF6C00);
+  transition-duration: var(--my-transition-duration);
+  transition-timing-function: var(--my-transition-timing-function);
+  transition-delay: var(--my-transition-delay);
 }

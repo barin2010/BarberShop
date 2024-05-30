@@ -1,0 +1,86 @@
+.traditionalWrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 78px;
+  padding-bottom: 84px;
+  margin: 0 auto;
+}
+.traditionalText {
+  font-size: 11px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 80px;
+}
+.traditionalText::after {
+  content: '';
+  position: absolute;
+  width: 60px;
+  height: 1px;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: var(--primary-font-color-303030);
+}
+.traditionalTitle {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.traditionalDEscr {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  letter-spacing: 0.02em;
+  color: var(--secondary-font-color-555555);
+  margin-bottom: 44px;
+}
+.traditionalBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.traditionalList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.traditionalItem {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 35px;
+  background-color: var(--grey-color-F7F7F7);
+  align-items: center;
+  text-align: center;
+  min-width: 194px;
+}
+
+.traditionalItem.top {
+  margin-top: 75px;
+}
+.traditionalItemBox {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 6px;
+}
+
+.traditionalNumber {
+  font-weight: 700;
+  font-size: 42px;
+  letter-spacing: 0.05em;
+}
+.traditionalImg {
+  margin-top: 15px;
+  margin-bottom: auto;
+  width: 13px;
+}
+
+.traditionalStatus {
+  font-weight: 600;
+  font-size: 11px;
+}

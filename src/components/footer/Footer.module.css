@@ -1,0 +1,31 @@
+.footer {
+  background-color: var(--grey-color-F7F7F7);
+}
+
+.footerWrapper {
+  padding: 44px 0;
+}
+.footerList {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 270px;
+  margin-left: auto;
+}
+
+.footerLine {
+  width: 60px;
+  height: 1px;
+  background-color: var(--primary-font-color-303030);
+}
+.footerItem {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+}
+.footerText {
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  color: var(--secondary-grey-9DA4BD);
+}
