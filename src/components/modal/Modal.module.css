@@ -1,0 +1,92 @@
+.ovelay {
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 2px 4px 0 rgba(0, 0, 0, 0.08),
+    0 4px 8px 0 rgba(0, 0, 0, 0.04);
+  background: rgba(25, 28, 38, 0.2);
+  width: 100%;
+  position: static;
+  z-index: 10;
+}
+.modalWrapper {
+  width: 337px;
+
+  background-color: var(--white-color-FFFFFF);
+  margin-left: auto;
+  padding: 48px 31px 227px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modalClose {
+  width: 18.7px;
+  height: 18.7px;
+  margin-left: auto;
+  margin-bottom: 39px;
+}
+.contactsList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 64px;
+}
+.contactsLink {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+}
+.contactsLink:hover,
+.contactsLink:focus {
+  color: var(--border-color-FF6C00);
+  transition-duration: var(--my-transition-duration);
+  transition-timing-function: var(--my-transition-timing-function);
+  transition-delay: var(--my-transition-delay);
+}
+
+.contactsPhone {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 19px;
+  margin-right: auto;
+}
+.modalBtn {
+  font-size: 12px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 12px 37px;
+  border-radius: 25px;
+  width: 194px;
+  border: 1px solid var(--border-color-FF6C00);
+  margin-bottom: 69px;
+  background-color: inherit;
+  margin-right: auto;
+}
+
+.modalBtn:hover,
+.modalBtn:focus {
+  background-color: var(--border-color-FF6C00);
+  color: var(--white-color-FFFFFF);
+  transition-duration: var(--my-transition-duration);
+  transition-timing-function: var(--my-transition-timing-function);
+  transition-delay: var(--my-transition-delay);
+}
+.socialList {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.socialLink {
+  font-size: 14px;
+  letter-spacing: 0.2em;
+  position: relative;
+  width: 100%;
+}
+.socialLink.top::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -90px;
+
+  width: 60px;
+  height: 1px;
+  background-color: var(--primary-font-color-303030);
+}

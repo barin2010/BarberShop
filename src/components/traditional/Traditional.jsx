@@ -7,12 +7,14 @@ const Traditional = () => {
     <section className={css.traditional}>
       <div className="container">
         <div className={css.traditionalWrapper}>
-          <p className={css.traditionalText}>Old traditional school</p>
-          <h3 className={css.traditionalTitle}>¿Why people come to us?</h3>
-          <p className={css.traditionalDEscr}>
-            Only good things are said about us. But it's better to see and feel
-            1 time than read 10 times.
-          </p>
+          <div className={css.traditionalTextBox}>
+            <p className={css.traditionalText}>Old traditional school</p>
+            <h3 className={css.traditionalTitle}>¿Why people come to us?</h3>
+            <p className={css.traditionalDEscr}>
+              Only good things are said about us. But it's better to see and
+              feel 1 time than read 10 times.
+            </p>
+          </div>
           <div className={css.traditionalBox}>
             <ul className={css.traditionalList}>
               <li className={css.traditionalItem}>

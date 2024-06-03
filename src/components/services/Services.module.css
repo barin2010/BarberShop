@@ -42,13 +42,24 @@
   margin-bottom: 44px;
   color: var(--white-color-FFFFFF);
 }
+.serviceListBox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 44px;
+  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+}
 .servicesList {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+
   padding: 30px 20px 30px 40px;
-  margin-bottom: 44px;
+}
+.servicesList.top {
+  padding-bottom: 10px;
+}
+.servicesList.botton {
+  padding-top: 10px;
 }
 .servicesItem {
   display: flex;
@@ -97,4 +108,78 @@
   transition-duration: var(--my-transition-duration);
   transition-timing-function: var(--my-transition-timing-function);
   transition-delay: var(--my-transition-delay);
+}
+@media (min-width: 768px) {
+  .about {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .services {
+    background-image: image-set(
+        url(../../images/tablet/from_1x.png) 1x,
+        url('../../images/tablet/from_2x.png') 2x
+      ),
+      url('../../images/tablet/Bg_from.png');
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    width: 768px;
+    height: 856px;
+  }
+
+  .servicesWrapper {
+    padding: 100px 0;
+  }
+
+  .servicesList {
+    width: 703px;
+  }
+  .itamTextOne {
+    font-size: 18px;
+    line-height: 167%;
+  }
+  .itemTextSpan {
+    font-size: 18px;
+    line-height: 167%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .services {
+    background-image: image-set(
+        url('../../images/desctop/from_1x.png') 1x,
+        url('../../images/desctop/from_2x.png') 2x
+      ),
+      url('../../images/desctop/Bg_from.png');
+    background-size: cover;
+    background-position: center, center;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 692px;
+  }
+  .servicesWrapper {
+    padding: 120px 0;
+  }
+  .servicesText {
+    margin-right: auto;
+  }
+  .sercesTitle {
+    margin-right: auto;
+  }
+  .serviceListBox {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background: none;
+  }
+  .servicesList {
+    background: linear-gradient(180deg, #171a24 0%, rgba(23, 26, 36, 0.2) 100%);
+  }
+  .servicesBtn {
+    width: 160px;
+  }
 }

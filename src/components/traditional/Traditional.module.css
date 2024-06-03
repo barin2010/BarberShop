@@ -84,3 +84,48 @@
   font-weight: 600;
   font-size: 11px;
 }
+@media (min-width: 768px) {
+  .about {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .traditionalWrapper {
+    padding: 100px 0;
+    max-width: 768px;
+  }
+
+  .traditionalWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .traditionalItem {
+    width: 210px;
+  }
+  .traditionalTitle {
+    width: 400px;
+  }
+  .traditionalDEscr {
+    width: 500px;
+  }
+}
+@media (min-width: 1600px) {
+  .about {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .traditionalWrapper {
+    flex-direction: row;
+    gap: 130px;
+    align-items: center;
+    justify-content: center;
+  }
+  .traditionalTextBox {
+    margin-right: auto;
+    order: 2;
+  }
+  .traditionalBox {
+    margin-left: auto;
+    order: 1;
+  }
+}

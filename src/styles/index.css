@@ -67,6 +67,8 @@ body {
   font-weight: 600;
   background-color: #ffffff;
   overflow-x: hidden;
+  display: flex;
+  margin: 0 auto;
 }
 .container {
   max-width: 480px;
@@ -85,5 +87,6 @@ body {
   .container {
     margin: 0 auto;
     padding: 0 215px;
+    min-width: 1600px;
   }
 }

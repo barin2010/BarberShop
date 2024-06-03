@@ -92,3 +92,46 @@
   transition-timing-function: var(--my-transition-timing-function);
   transition-delay: var(--my-transition-delay);
 }
+@media (min-width: 768px) {
+  .about {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .barbersWrapper {
+    padding: 100px 0;
+  }
+  .barbersImg {
+    width: 450px;
+  }
+  .barbersTitle {
+    margin-left: 128px;
+  }
+  .barbersText {
+    margin-left: 128px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .about {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .barbersWrapper {
+    padding: 120px 0;
+    text-align: left;
+  }
+  .barbersList {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .barbersImg {
+    width: 370px;
+  }
+  .barbersTitle {
+    margin-left: 0;
+  }
+  .barbersText {
+    margin-left: 0;
+  }
+}

@@ -33,4 +33,46 @@
 }
 .latinImg {
   width: 418px;
+  height: 360px;
+}
+@media (min-width: 768px) {
+  .about {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .latinWrapper {
+    padding-top: 100px;
+    padding-bottom: 106px;
+    max-width: 690px;
+  }
+  .latinList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 690px;
+  }
+  .latinImg {
+    width: 330px;
+    height: 360px;
+  }
+  .latinText {
+    margin-bottom: 44px;
+  }
+}
+@media (min-width: 1600px) {
+  .about {
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  .latinWrapper {
+    padding-top: 120px;
+    padding-bottom: 129px;
+  }
+  .latinList {
+    flex-wrap: nowrap;
+    width: 1170px;
+  }
+  .latinImg {
+    width: 270px;
+    /* height: 360px; */
+  }
 }

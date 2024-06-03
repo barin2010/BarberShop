@@ -10,7 +10,7 @@ import Alan2x from '../../images/mobile/Alan_2x.png';
 
 const Barbers = () => {
   return (
-    <section className={css.barbers}>
+    <section id='barbers' className={css.barbers}>
       <div className="container">
         <div className={css.barbersWrapper}>
           <p className={css.barbersText}>For true enjoyers of the atmosphere</p>

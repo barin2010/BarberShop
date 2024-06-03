@@ -4,6 +4,9 @@
       url('../../images//mobile/footer_bg2x.png') 2x
     ),
     url('../../images/mobile/Bg_footer.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
 }
 
 .contactsWrapper {
@@ -24,6 +27,7 @@
   flex-direction: column;
   gap: 20px;
   margin-bottom: 44px;
+  margin-right: auto;
 }
 .contactsItem {
   display: flex;
@@ -43,7 +47,7 @@
   position: relative;
   padding-left: 20px;
   margin-bottom: 20px;
-  margin-right: 70px;
+  margin-right: 140px;
   display: inline-block;
 }
 .contactsWork::after {
@@ -65,4 +69,30 @@
   font-weight: 400;
   line-height: 167%;
   color: var(--secondary-grey-9DA4BD);
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .contactsWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .contactsTop {
+    width: 330px;
+  }
+  .contactsData {
+    width: 200px;
+  }
+
+  .contactsBoxBotton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 80px;
+  }
+  .contactsWork {
+    margin-right: 0;
+  }
 }

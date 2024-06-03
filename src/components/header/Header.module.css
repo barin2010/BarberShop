@@ -9,6 +9,7 @@
   margin: 0 auto;
   width: 480px;
 }
+
 .headerWrapper {
   padding-top: 40px;
   padding-bottom: 200px;
@@ -19,6 +20,7 @@
   align-items: center;
   margin-bottom: 112px;
 }
+
 .headerBlock {
   display: flex;
   flex-direction: column;
@@ -55,4 +57,170 @@
   font-size: 16px;
   font-weight: 400;
   color: var(--secondary-grey-9DA4BD);
+}
+.tabletAsaid {
+  display: none;
+}
+.tabletNavigation {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .header {
+    min-width: 768px;
+    background-image: none;
+  }
+  .headerWrapper {
+    min-width: 573px;
+  }
+  .navigation {
+    display: none;
+  }
+  .tabletHeader {
+    background-image: image-set(
+      url('../../images/tablet/border_1x.jpg') 1x,
+      url('../../images/tablet/border_2x.jpg') 2x
+    );
+    background-size: cover;
+    background-position: center, center;
+    /* width: 573px;
+    height: 680px; */
+  }
+  .tabletWrapper {
+    display: flex;
+    gap: 29.3px;
+  }
+  .tabletAsaid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 87px;
+    height: 680px;
+    padding: 32px 10px 40px 10px;
+  }
+  .logoBlack {
+    width: 67px;
+    margin-bottom: 282px;
+  }
+  .tabletSocialList {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    height: 170px;
+    justify-content: space-between;
+    margin-bottom: 80px;
+  }
+  .tabletSocialItem {
+    transform: rotate(90deg);
+  }
+  .tabletSocialLink {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    transform: rotate(90deg);
+  }
+  .tabletSocialLink:hover,
+  .tabletSocialLink:focus {
+    color: var(--border-color-FF6C00);
+    transition-duration: var(--my-transition-duration);
+    transition-timing-function: var(--my-transition-timing-function);
+    transition-delay: var(--my-transition-delay);
+  }
+  .tabletSocialLine {
+    display: block;
+    height: 60px;
+    width: 1px;
+    background-color: var(--primary-font-color-303030);
+  }
+  .tabletNavigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 156px;
+  }
+  .tabletList {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19px;
+    margin-right: 45.3px;
+  }
+  .tabletsItem {
+    padding-bottom: 15px;
+  }
+  .tabletLink {
+    font-size: 12px;
+    line-height: 0.1em;
+
+    color: var(--white-color-FFFFFF);
+  }
+  .tabletLink:hover,
+  .tabletLink:focus {
+    color: var(--border-color-FF6C00);
+    transition-duration: var(--my-transition-duration);
+    transition-timing-function: var(--my-transition-timing-function);
+    transition-delay: var(--my-transition-delay);
+  }
+  .tabletBoxPhone {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+  }
+  .tabletBtn {
+    padding: 12px 20px;
+    width: 161px;
+    border-radius: 25px;
+    border: 1px solid var(--border-color-FF6C00);
+    font-size: 12px;
+    color: var(--white-color-FFFFFF);
+    line-height: 0.09em;
+    background-color: transparent;
+  }
+  .tabletPhone {
+    font-size: 12px;
+    line-height: 0.1em;
+    color: var(--white-color-FFFFFF);
+  }
+  .tabletBtn:hover,
+  .tabletBtn:focus {
+    background-color: var(--border-color-FF6C00);
+    transition-duration: var(--my-transition-duration);
+    transition-timing-function: var(--my-transition-timing-function);
+    transition-delay: var(--my-transition-delay);
+  }
+  .headerBlock {
+    margin-left: 98px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .header {
+    margin: 0 auto;
+    min-width: 1600px;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 0 215px;
+  }
+  .tabletHeader {
+    background-image: image-set(
+      url('../../images//desctop/border_1x.jpg') 1x,
+      url('../../images/desctop/border_2x.jpg') 2x
+    );
+    min-width: 1070px;
+  }
+  .tabletList {
+    margin-left: 100px;
+    gap: 30px;
+  }
+  .tabletBoxPhone {
+    display: flex;
+    flex-direction: row;
+    gap: 43px;
+    padding-right: 17px;
+  }
 }
